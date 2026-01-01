@@ -12,7 +12,7 @@ module.exports ={
 
     //Analisis settings
     HISTORY_SIZE: 10,
-    MOVING_AVERAGE_WINDOW : 5
+    MOVING_AVERAGE_WINDOW : 5,
 
      // Device fingerprinting thresholds
     DEVICE_FINGERPRINT: {
