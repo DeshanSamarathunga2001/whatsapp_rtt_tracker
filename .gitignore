@@ -1,0 +1,72 @@
+# Node modules (all packages installed via npm)
+node_modules/
+**/node_modules/
+
+# Environment variables (NEVER commit these!)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+**/.env
+**/.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# WhatsApp session data (contains auth keys!)
+whatsapp-session/
+**/whatsapp-session/
+*.session
+session.data.json
+
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Coverage reports
+coverage/
+*.coverage
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# Lock files (optional - some teams commit these)
+# Uncomment if you want to ignore them:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
